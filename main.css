@@ -1,0 +1,361 @@
+
+.navbar{
+    position: sticky;
+    top: 0;
+    
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(204, 204, 221); */
+    background-image: url(/about.jpg);
+    background-repeat: no-repeat;
+     background-size:cover;
+     background-attachment:fixed;
+     background-position:center;
+}
+
+
+.border1{
+    background:whitesmoke;
+    width: 100%;
+    /* height: 200px; */
+}
+.servis{
+  position: relative;
+  padding:20px;
+  text-align: center;
+    margin: auto;
+    font-size: xx-large;
+    color: darkolivegreen;
+    font-weight: bold;
+
+}
+.lorem{
+    position:relative;
+    padding:20px;
+    text-align: center;
+      margin: auto;
+      font-size: medium;
+      color: darkolivegreen;
+      font-weight: lighter;
+      font-weight: bold;
+}
+.sheet{
+    width: 200px;
+    height: 5px;
+    background-color:black;
+    position: relative;
+    margin: auto;
+}
+.sheet1{
+    width: 100px;
+    height: 5px;
+    background-color: blue;
+    position: relative;
+    margin: auto;
+}
+
+.box{
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    background-color:lightblue;
+}
+.media{
+  width: 100%;
+  height: 150px;
+    display: flex;
+   flex-direction: row;
+    justify-content: space-around;
+
+}
+.p1{
+    text-align: center;
+    margin: auto;
+    position:relative;
+}
+
+.li{
+    list-style: none;
+    margin:   120px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 20px;
+    color:black;
+    border: 20px solid black;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+.li:hover{
+    color: lightcoral;
+    background-color: lightseagreen;
+}
+.photo{
+    width: 500px;
+    height: 400px;
+    background-image: url(/about.jpg);
+    background-size: cover;
+}
+.text1{
+    font-size: xx-large;
+}
+.text2{
+    font-size: small;
+    display: flex;
+}
+.tag{
+    list-style: none;
+    display: inline-block;
+    top: 60%;
+    
+}
+
+.media1{
+    width: 100%;
+    height: 150px;
+      display: flex;
+     flex-direction: row;
+      justify-content: space-around;
+  
+  }
+  
+  .li1{
+      list-style: none;
+      margin:   70px;
+      display: inline-block;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: 20px;
+      padding: 20px;
+      color:black;
+      border-radius: 50%;
+      background-color: lightblue;
+  }
+  .t45{
+      font-size: x-small;
+      display: inline-block;
+  }
+  .number{
+      font-size: xx-large;
+      color: blue;
+      font-weight: bold;
+      margin: 40px;
+      text-align: center;
+  }
+.project{
+    font-size: smaller;
+    font-weight: bold;
+    color: darkslategrey;
+    margin: 40px;
+    text-align: center;
+}
+.icon{
+    list-style: none;
+    text-align: center;
+}
+.border{
+    background-color: lightcyan;
+    width: 100%;
+    /* height: 100%; */
+}
+.brat{
+    position: relative;
+    margin: auto;
+}
+.bro1{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    /* box-shadow: 1px 1px 1px 1px; */
+    background-color: white;
+}
+.border1{
+    background:whitesmoke;
+    width: 100%;
+    /* height: 200px; */
+}
+.all{
+    margin: auto;
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 5px 5px;
+    list-style: none;
+    font-weight: bold;
+    font-size: large;
+}
+.clr{
+    background-color: blue;
+    width: fit-content;
+}
+.wrapper{
+    width: 1000px;
+    /* height: 100px; */
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+.box{
+    background: #fff;;
+    width: 200px;
+    height: 70px;
+}
+.wrapper{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.card{
+    width: 30%;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+.card:hover .button-wrapper{
+    bottom: 0;
+    /* background-color: rgb(255, 255, 255,.4); */
+}
+
+
+
+.card img{
+    width: 100%;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition-duration: .5s;
+}
+
+.button-wrapper{
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    left: 0;
+    display: flex;
+    background-color: rgba(17, 157, 220, 0.8);
+    transition-duration: .5s;
+}
+
+.button{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+.nav-link{
+    color: black !important;
+}
+
+.nav-link:hover{
+    color: blue !important;
+}
+
+.carousel-indicators li{
+    background-color: grey;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active{
+    background-color: blue;
+}
+
+.carousel-indicators{
+    bottom: -50px;
+}
+.border2{
+    background:whitesmoke;
+    width: 100%;
+    /* height: 200px; */
+}
+.border4{
+    background-color:whitesmoke;
+    width: 100%;
+}
+.hov:hover{
+    box-shadow: 1px 1px 1px 1px;
+
+}
+.btn:hover{
+    background-color:lightskyblue;
+}
+.bro:hover{
+    box-shadow: 1px 1px 1px 1px;
+}
+
+
+.zip{
+    list-style: none;
+      margin:   70px;
+      display: inline-block;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: 20px;
+      padding: 20px;
+      color:black;
+      border-radius: 50%;
+      background-color: lightblue;
+}
+
+.card:hover .button-wrapper{
+    bottom: 0;
+}
+
+.card:hover .cover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.background{
+    height: 100vh;
+    background-image: url("/hero-bg.jpg");
+    background-size: cover;
+    display: flex;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.4)
+}
+
+.fullname{
+    margin-bottom: 200px;
+    width:fit-content;
+    bottom: 0;
+    position: absolute;
+    font-size: xx-large;
+    padding: 5px;
+}
+.wel{
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+    margin: 50px;
+}
+.wel1{
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    margin: 50px;
+    
+}
+.btn1{
+    background-color: blue;
+    margin: 40px;
+}
